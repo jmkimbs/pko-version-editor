@@ -19,13 +19,8 @@ build:
 	mkdir build
 
 clean:
-ifeq ($(OS), Windows_NT)
-	rmdir /s /q build
-	rmdir /s /q bin
-else
 	rm -rf build
 	rm -rf bin
-endif
 
 run: bin/version_editor
 	./bin/version_editor

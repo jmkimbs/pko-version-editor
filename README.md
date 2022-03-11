@@ -11,12 +11,13 @@ Updating the Game.exe version allows you to force client updates if a user attem
 ## Using the application
 
 ### Prerequisites
+- Bash
 - GNU C++ compiler (g++)
 - GNU Make
 
 ### Compiling and running
 1. Clone the repository
-2. Open a terminal window and navigate to the cloned repository's location
+2. Open a bash terminal window and navigate to the cloned repository's location
 3. Use the command `make run` to make and run the program
 4. Follow the program's instructions
 
