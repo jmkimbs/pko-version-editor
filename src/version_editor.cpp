@@ -104,5 +104,7 @@ int main(int argc, char* argv[])
 
 	std::cout << "Update completed" << std::endl;
 
+	gameFile.close();
+
 	return 0;
 }
